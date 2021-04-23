@@ -4,6 +4,21 @@
   border: 0;
 }
 
+header,
+footer,
+h1,
+h2 {
+  font-family: battleslab, sans-serif;
+}
+
+body {
+  background: #C1BFC6;
+}
+
+p {
+  font-family: courier-std, monospace;
+}
+
 .gallery img {
   width: 295px;
 }
