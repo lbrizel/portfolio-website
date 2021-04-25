@@ -37,8 +37,7 @@ p {
 
 nav ul li {
   display: inline-block;
-  float: right;
-  margin-right: 100px;
+  margin-right: 80px;
   margin-top: 50px;
   padding: 0px 25px;
 
@@ -47,24 +46,40 @@ nav ul li {
 
 
 .header-logo-name img{
-  float: left;
   margin: 10px;
   padding: 0 10px;
 }
 
-h1 {
-  position: absolute;
-  margin-left: 100px;
-  margin-top: 50px;
-  padding-left: 35px;
+  .header-logo-name {
+  width: 30%;
+  display: inline-block;
 }
 
+h1,
+.header-logo-name img {
+    width: 30%;
+    display: inline-block;
+
+}
+
+nav {
+    width: 65%;
+    display: inline-block;
+    vertical-align: top;
+}
 
 
 
 
 .footer-section {
   position: relative;
+}
+
+.footer-section > div {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    width: 33%
 }
 
 .contact ul li,
@@ -77,18 +92,18 @@ h3 {
 }
 
 .disclaimer {
-    position: absolute;
     font-size: 9px;
-    right: 0px;
-    bottom: 10%;
+    margin-top: 30px;
 }
 
-.footer-logo img {
-  position: absolute;
-  left: 50%;
-  top: 30%;
+.footer-logo  {
+  text-align: center;
 }
 
+h1 {
+    vertical-align: top;
+    margin-top: 30px;
+}
 
 /*----Home Page Styling----*/
 .title {
@@ -124,6 +139,11 @@ h3 {
 
 
 /*----Fine-Art Page Styling----*/
+
+.gallery {
+  max-width: 900px;
+  margin: 0 auto;
+}
 
 .gallery-images img {
   max-width: 200px;
