@@ -40,6 +40,7 @@ nav ul li {
   margin-right: 80px;
   margin-top: 50px;
   padding: 0px 25px;
+  font-size: 24px;
 
 }
 
@@ -57,7 +58,6 @@ nav ul li {
 
 h1,
 .header-logo-name img {
-    width: 30%;
     display: inline-block;
 
 }
@@ -65,6 +65,8 @@ h1,
 h1 {
     vertical-align: top;
     margin-top: 30px;
+    font-weight: 400;
+    margin-right: 100px;
 }
 nav {
     width: 65%;
@@ -97,7 +99,7 @@ h3 {
 
 
 .disclaimer {
-    font-size: 9px;
+    font-size: 10px;
     margin-top: 30px;
     padding-top: 28px;
 }
@@ -142,7 +144,11 @@ h3 {
 
 .about-main {
   positiom:relative;
-  
+
+}
+
+.about-text {
+  background: #cccccc;
 }
 
 /*----Fine-Art Page Styling----*/
@@ -150,9 +156,42 @@ h3 {
 .gallery {
   max-width: 900px;
   margin: 0 auto;
+  text-align: center;
 }
 
+.gallery h1 {
+font-size: 50px;
+font-weight: lighter;
+}
+
+
 .gallery-images img {
-  max-width: 200px;
-  max-height:200px;
+  max-width: 350px;
+
+}
+
+
+.gallery1,
+.gallery2,
+.gallery3 {
+    height: 350px;
+}
+
+.gallery1 {
+  padding-top: 80px;
+}
+
+.lady {
+    padding: 140px;
+}
+.moth1 {
+    padding: 37px;
+}
+
+.ferrets {
+  padding: 60px;
+}
+
+.octopus {
+  padding: 145px;
 }
