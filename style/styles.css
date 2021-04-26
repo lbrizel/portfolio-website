@@ -62,6 +62,10 @@ h1,
 
 }
 
+h1 {
+    vertical-align: top;
+    margin-top: 30px;
+}
 nav {
     width: 65%;
     display: inline-block;
@@ -79,31 +83,29 @@ nav {
     width: 30%;
     display: inline-block;
     vertical-align: top;
-    width: 33%
+    width: 33%;
+    margin-top:1%;
 }
 
 .contact ul li,
 h3 {
     display: block;
     padding-left: 20px;
-
-
-
+    margin-bottom: -11px;
+    padding-bottom: 10px;
 }
+
 
 .disclaimer {
     font-size: 9px;
     margin-top: 30px;
+    padding-top: 28px;
 }
 
 .footer-logo  {
   text-align: center;
 }
 
-h1 {
-    vertical-align: top;
-    margin-top: 30px;
-}
 
 /*----Home Page Styling----*/
 .title {
