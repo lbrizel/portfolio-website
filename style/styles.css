@@ -194,6 +194,7 @@ h3 {
 .gallery h1 {
 font-size: 50px;
 font-weight: lighter;
+margin-top: 55px;
 }
 
 
@@ -234,4 +235,20 @@ font-weight: lighter;
   max-width: 900px;
   margin: 0 auto;
   text-align: center;
+}
+
+.digital-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: lighter;
+  margin-top: 15px;
+}
+
+.digital-images {
+  text-align:center;
+}
+
+.digital-images img {
+    padding: 179px 100px;
+    max-width: 350px;
 }
