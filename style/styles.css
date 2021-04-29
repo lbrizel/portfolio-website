@@ -101,7 +101,7 @@ nav {
 
 .footer-section {
   position: relative;
-  font-weight: regular
+  font-weight:normal;
 
 }
 
@@ -116,9 +116,16 @@ nav {
 .contact ul li,
 h3 {
     display: block;
-    padding-left: 20px;
     margin-bottom: -11px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.contact ul li {
+  padding-left: 215px;
+}
+
+.contact h3 {
+  padding-left: 190px;
 }
 
 
