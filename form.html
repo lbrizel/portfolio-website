@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lauren Brizel | Form</title>
+
+    <!--Favicon-->
+    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- CSS -->
+    <link href="style/styles.css" rel="stylesheet" type="text/css" />
+    <link href="lightbox/src/css/lightbox.css" rel="stylesheet" />
+
+    <!--Adobe Fonts-->
+    <link rel="stylesheet" href="https://use.typekit.net/uer0oyn.css">
+
+    <!--Scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js" ></script>
+
+  </head>
+  <body>
+    <header>
+      <section class= "section1">
+        <div class="header-logo-name">
+          <img src="images/brizel-logo.png" width="100" height="100" alt="brizel-logo" title="Brizel Logo"/>
+          <h1>Lauren Brizel</h1>
+        </div>
+
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="digital.html">Digital</a></li>
+                <li><a href="fine-art.html">Fine Art</a></li>
+              </ul>
+
+            </nav>
+
+        </section>
+
+    </header>
+
+    <div class="container">
+
+      <h1>We Want To Hear From You!</h1>
+
+      <h2>Please fill out the form below:</h2>
+      <p>Please be patient as it may take us some time to get back to you</p>
+      <p>We appreciate your cooperation!</p>
+      <form class="contact-form" id="test_form" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+
+
+        <section class="basic-info">
+
+          <div class="first-name field">
+            <h3>Basic Information</h3>
+
+            <label for="firstname" class="label_input">First Name:</label>
+            <input type="text" name="firstname" id="firstname" />
+          </div>
+
+          <div class="lastname field">
+             <label for="lastname" class="label_input">Last Name:</label>
+             <input type="text" name="lastname" id="lastname" />
+          </div>
+
+          <div class="email field">
+            <label for="email" class="label_input">Email:</label>
+            <input type="email" name="email" id="email" placeholder="name@example.com" />
+          </div>
+
+          <div class="telephone field">
+            <label for="telephone" class="label_input">Telephone:</label>
+            <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
+          </div>
+        </section>
+
+        <div class="checkbox field">
+          <h3> Preferred Type of Communication:</h3>
+          <p>You may select multiple options.</p>
+          <input type="checkbox" name="preference" value="textmessage" id="textmessage" /><label for="textmessage">Text Message></label>
+          <input type="checkbox" name="preference" value="phone" id="phone" /><label for="phone">Phone Call></label>
+          <input type="checkbox" name="preference" value="e-mail" id="e-mail" /><label for="e-mail">E-mail></label>
+        </div>
+
+        <div class="radiobutton field">
+          <h3>Best Time Of Day To Be Contacted:</h3>
+          <input type="radio" name="preference" value="morning" id="morning" /><label for="morning">Morning></label>
+          <input type="radio" name="preference" value="afternoon" id="afternoon" /><label for="afternoon">Afternoon></label>
+          <input type="radio" name="preference" value="evening" id="evening" /><label for="evening">Evening></label>
+        </div>
+
+        <div class= "comments field">
+          <label for="comments" class="label_input">Questions or Comments:</label>
+          <textarea name="comments" id="comments" cols="55" rows="5" placeholder="Your Text Here"></textarea>
+        </div>
+
+        <div class="submit">
+          <input type="submit" value="Send"/>
+        </div>
+
+      </form>
+
+    </div>
+
+    <footer>
+      <section class="footer-section">
+
+        <div class="contact">
+          <h3>For inquiries, please contact:</h3>
+          <ul>
+            <li><img src="images/mail.jpg" width="24" height="24" alt="mail icon" id="mail-icon"/><a href="mailto:brizel.lauren@gmail.com">brizel.lauren@gmail.com</a></li>
+            <li><img src="images/instagram-logo.png" width="24" height="24" alt="instagram logo" id= "instagram-logo"/><a href="https://instagram.com/pressed.on.wax" target="_blank">@pressed.on.wax</a></li>
+          </ul>
+        </div>
+
+        <div class ="footer-logo">
+          <img src="images/logo-outline.png" width="90" height="90" alt="footer logo" id="footer-logo"/>
+        </div>
+
+        <div class="disclaimer">
+          <p>All content on this website is original work and may not be copied or duplicated without permission.</p>
+        </div>
+      </section>
+    </footer>
+    <script src="lightbox/src/js/lightbox.js"></script>
+  </body>
+</html>

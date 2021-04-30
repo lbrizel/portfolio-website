@@ -304,7 +304,25 @@ margin-top: 55px;
 }
 
 
+/*---Form Styles FORM ONLY FOR PROJECT USE-NOT FOR LIVE SITE--*/
 
+.container {
+  min-height: 100vh;
+  text-align: center;
+  color: #666273;
+}
+
+.contact-form {
+  font-family: courier-std, monospace;
+  color: #666273;
+}
+
+.basic-info,
+.checkbox,
+.radiobutton,
+.comments {
+  padding: 25px;
+}
 
 
 
