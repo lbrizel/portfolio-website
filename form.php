@@ -9,9 +9,9 @@ $form->processForm(
 
 	'laurenbrizel.com' // Put you mail domain here
 	,
-	'Lauren Brizel' // Put your site name / form name here
+	'Lauren Brizel | Portfolio' // Put your site name / form name here
 	,
-	'lauren.brizel@ufl.edu' // Where will the form notification be sent?
+	'brizel.lauren@gmail.com' // Where will the form notification be sent?
 	,
 	'noreply@laurenbrizel.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 
