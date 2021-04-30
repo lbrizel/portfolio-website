@@ -159,7 +159,7 @@ h3 {
   height:800px;
   width:100%;
   position:relative;
-  min-height: 100vh;
+  min-height: 153vh;
 }
 
 .title-image img {
@@ -284,6 +284,10 @@ margin-top: 55px;
   margin-top: -5px;
 }
 
+.digital-header h2 {
+    padding-top: 60px;
+}
+
 .digital-header,
 .digital-images {
   min-height: 100vh;
@@ -299,9 +303,6 @@ margin-top: 55px;
     max-height: 350px;
 }
 
-.digital-header h2 {
-    padding-top: 60px;
-}
 
 
 /*---Form Styles FORM ONLY FOR PROJECT USE-NOT FOR LIVE SITE--*/
