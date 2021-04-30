@@ -58,11 +58,14 @@ nav a:hover {
 .header-logo-name img{
   margin: 10px;
   padding: 0 10px;
+
 }
 
   .header-logo-name {
   width: 30%;
   display: inline-block;
+  animation: fade-in 6s;
+
 }
 
 h1,
@@ -156,22 +159,23 @@ h3 {
   height:800px;
   width:100%;
   position:relative;
+  min-height: 100vh;
 }
-.title-image img {
-  min-width: 400px;
-  height: 800px;
-  position: absolute;
-  left: 30%;
 
+.title-image img {
+    min-width: 400px;
+    height: 1189px;
+    position: absolute;
+    left: 27%;
 }
 
 .title-name {
     position: absolute;
     top: 200px;
-    left: 45%;
+    left: 40%;
     background: #cccccc;
-    width: 250px;
-    height: 250px;
+    width: 275px;
+    height: 275px;
     border-radius: 50%;
     opacity: 70%;
 }
@@ -202,7 +206,7 @@ h3 {
 .about-text {
     background: #cccccc;
     position: relative;
-    left: 214px;
+    left: 318px;
     bottom: 710px;
     font-size: 24px;
     border-radius: 10px;
@@ -217,7 +221,7 @@ h3 {
 
 .headshot {
     position: relative;
-    left: 248px;
+    left: 312px;
     bottom: 830px;
 }
 
@@ -271,17 +275,18 @@ margin-top: 55px;
 
 /*----Digital Page Styling----*/
 
-.digital {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
+
 
 .digital-header {
   text-align: center;
   font-size: 24px;
   font-weight: lighter;
   margin-top: -5px;
+}
+
+.digital-header,
+.digital-images {
+  min-height: 100vh;
 }
 
 
@@ -291,9 +296,27 @@ margin-top: 55px;
 
 .digital-images img {
     padding: 179px 100px;
-    max-width: 350px;
+    max-height: 350px;
 }
 
 .digital-header h2 {
     padding-top: 60px;
+}
+
+
+
+
+
+
+/*----Animations ----*/
+
+@keyframes fade-in {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
 }
